@@ -1,4 +1,4 @@
-package squareandcube.com.candidateregistration;
+package balaji66.com.candidateregistration;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -8,7 +8,7 @@ import android.view.animation.AnimationUtils;
 import android.widget.ImageView;
 
 import static java.lang.Thread.sleep;
-import static squareandcube.com.candidateregistration.R.anim.abc_fade_out;
+import static balaji66.com.candidateregistration.R.anim.abc_fade_out;
 
 public class SplashActivity extends AppCompatActivity {
 

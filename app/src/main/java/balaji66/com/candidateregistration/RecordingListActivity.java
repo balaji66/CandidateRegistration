@@ -1,4 +1,4 @@
-package squareandcube.com.candidateregistration;
+package balaji66.com.candidateregistration;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
