@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_audio"
+            android:icon="@drawable/ic_microphone"
+            android:title="@string/recordaudio" />
+        <item
+            android:id="@+id/nav_qrCode"
+            android:icon="@drawable/ic_qr_code"
+            android:title="@string/scan_qr" />
+    </group>
+
+    <item android:title="@string/communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_call"
+                android:icon="@drawable/ic_call_24dp"
+                android:title="@string/call" />
+            <item
+                android:id="@+id/nav_message"
+                android:icon="@drawable/ic_message_24dp"
+                android:title="@string/message" />
+            <item
+                android:id="@+id/nav_mail"
+                android:icon="@drawable/ic_mail_24dp"
+                android:title="@string/mail" />
+
+        </menu>
+    </item>
+
+</menu>

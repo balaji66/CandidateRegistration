@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content" android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:paddingTop="10dp"
+    android:paddingBottom="@dimen/dimen_10dp"
+    android:paddingStart="@dimen/dimen_10dp">
+    <ImageView
+        android:id="@+id/imageViewPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_play"
+        android:layout_gravity="center_vertical"
+        android:clickable="true"
+        android:tint="@android:color/darker_gray"
+        android:focusable="true"
+        android:background="?android:attr/selectableItemBackground"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_toEndOf="@+id/imageViewPlay"
+        android:layout_marginStart="30dp"
+        >
+        <TextView
+            android:id="@+id/textViewRecordingname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_18sp"
+            android:text="@string/voice_001"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            />
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="20dp"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

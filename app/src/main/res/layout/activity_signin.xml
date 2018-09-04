@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".SignInActivity">
+    <android.support.v7.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_margin="@dimen/dimen_100dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+
+        android:layout_height="match_parent">
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:text="@string/login"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/appCompactButtonLogIn"
+            android:onClick="onClick"
+            android:background="@drawable/button_selector"
+            android:layout_marginBottom="@dimen/dimen_40dp"
+            android:layout_height="match_parent" />
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:background="@drawable/button_selector"
+            android:text="@string/register"
+            android:textColor="@color/colorWhite"
+            android:id="@+id/appCompactButtonRegister"
+            android:onClick="onClick"
+            android:layout_height="match_parent" />
+
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.NestedScrollView>
